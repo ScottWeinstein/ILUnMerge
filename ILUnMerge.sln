@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corapi", "mdbg\corapi\corapi.csproj", "{04EF9865-E1B1-403D-802B-E4FAEA50A634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILUnMerge", "iLUnMerge\ILUnMerge.csproj", "{A79FA053-CCE4-4943-8AF2-D1118194678D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILUnMergeLib", "ILUnMergeLib\ILUnMergeLib.csproj", "{46BD33BA-45CD-489D-A260-80324633FB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corapiCS", "mdbg\corapiCS\corapiCS.csproj", "{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILUnMergeTest", "ILUnMergeTest\ILUnMergeTest.csproj", "{987E3788-6A38-4E86-B765-1CF3E813B52E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79FA053-CCE4-4943-8AF2-D1118194678D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79FA053-CCE4-4943-8AF2-D1118194678D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79FA053-CCE4-4943-8AF2-D1118194678D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79FA053-CCE4-4943-8AF2-D1118194678D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BD33BA-45CD-489D-A260-80324633FB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BD33BA-45CD-489D-A260-80324633FB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BD33BA-45CD-489D-A260-80324633FB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BD33BA-45CD-489D-A260-80324633FB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987E3788-6A38-4E86-B765-1CF3E813B52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987E3788-6A38-4E86-B765-1CF3E813B52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987E3788-6A38-4E86-B765-1CF3E813B52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987E3788-6A38-4E86-B765-1CF3E813B52E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

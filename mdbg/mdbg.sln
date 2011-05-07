@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corapi", "corapi\corapi.csproj", "{04EF9865-E1B1-403D-802B-E4FAEA50A634}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corapi2", "corapi2\corapi2.csproj", "{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corapiCS", "corapiCS\corapiCS.csproj", "{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed platforms = Debug|Mixed platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed platforms = Release|Mixed platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Mixed platforms.ActiveCfg = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Mixed platforms.Build.0 = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Mixed platforms.ActiveCfg = Release|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Mixed platforms.Build.0 = Release|Any CPU
+		{04EF9865-E1B1-403D-802B-E4FAEA50A634}.Release|Win32.ActiveCfg = Release|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Debug|Mixed platforms.ActiveCfg = Debug|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Debug|Mixed platforms.Build.0 = Debug|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Release|Mixed platforms.ActiveCfg = Release|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Release|Mixed platforms.Build.0 = Release|Any CPU
+		{1CBEE7A5-F41B-4E2B-9470-6245C72060AA}.Release|Win32.ActiveCfg = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Mixed platforms.ActiveCfg = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Mixed platforms.Build.0 = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Mixed platforms.ActiveCfg = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Mixed platforms.Build.0 = Release|Any CPU
+		{81AD5998-4968-4943-8D9B-D07E4AB8DE1B}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

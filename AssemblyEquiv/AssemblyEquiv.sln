@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyEquiv", "AssemblyEquiv.csproj", "{B6725941-3E68-4FD4-A56E-E23C788D5EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AEQTest", "..\AEQTest\AEQTest.csproj", "{B59D5C6C-92D4-4E6D-8D18-1F5CE5308465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyEquiv.Tests", "..\AssemblyEquiv.Tests\AssemblyEquiv.Tests.csproj", "{CDBB1195-565B-4BAB-84B7-2D0D4FFDBE43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A4198E7-C873-466F-95EE-DD2953569C69}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyEquiv.vsmdi = AssemblyEquiv.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AssemblyEquiv.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6725941-3E68-4FD4-A56E-E23C788D5EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6725941-3E68-4FD4-A56E-E23C788D5EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6725941-3E68-4FD4-A56E-E23C788D5EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6725941-3E68-4FD4-A56E-E23C788D5EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59D5C6C-92D4-4E6D-8D18-1F5CE5308465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59D5C6C-92D4-4E6D-8D18-1F5CE5308465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59D5C6C-92D4-4E6D-8D18-1F5CE5308465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59D5C6C-92D4-4E6D-8D18-1F5CE5308465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBB1195-565B-4BAB-84B7-2D0D4FFDBE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBB1195-565B-4BAB-84B7-2D0D4FFDBE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBB1195-565B-4BAB-84B7-2D0D4FFDBE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBB1195-565B-4BAB-84B7-2D0D4FFDBE43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

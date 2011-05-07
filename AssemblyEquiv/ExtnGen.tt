@@ -1,0 +1,54 @@
+﻿<#@ template language="C#v3.5" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+using System;
+using Reflector;
+using Reflector.CodeModel.Memory;
+using Reflector.CodeModel;
+using System.Windows.Forms;
+namespace ACATool.Tasks
+{
+    internal static partial class ReflectorExtentionMethods
+    {
+<#
+PushIndent("\t\t"); 
+
+Func<string, string> GetItemName = (typename) =>
+{
+    switch(typename)
+    {
+        case "IControlCollection":		return "Control";
+        case "QueryClauseCollection":	return "IQueryClause";
+        case "ResourceCollection":		return "IResource";
+        case "IStringCollection":		return "string";
+        case "SwitchCaseCollection":	return "ISwitchCase";
+        default:
+            return typename.Replace("Collection", "");
+    }
+};
+
+var refAsm = System.Reflection.Assembly.ReflectionOnlyLoadFrom(@"C:\devtools\Reflector.exe");
+var colTypes = refAsm.GetExportedTypes().Where(pubType => typeof(ICollection).IsAssignableFrom(pubType));
+foreach (var item in colTypes)
+{
+	var itemName = GetItemName(item.Name);
+#>
+public static bool Compare(this <#= item.Name #> source, <#= item.Name #> n)
+{
+	return Compare<<#= itemName #>>(source,n);
+}
+public static bool Compare(this <#= item.Name #> source, <#= item.Name #> n, Func<<#= itemName #>, <#= itemName #>, bool> checkitem)
+{
+	return Compare<<#= itemName #>>(source,n,checkitem);
+}
+public static bool Compare(this <#= item.Name #> source, <#= item.Name #> n, Func<<#= itemName #>, <#= itemName #>, Action<string, string>, bool> checkitem, Action<string, string> errAct)
+{
+	return Compare<<#= itemName #>>(source,n,checkitem,errAct);
+}
+<#
+}
+PopIndent();
+#>
+	}
+}
